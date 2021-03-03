@@ -1,0 +1,133 @@
+{
+  "notes": [
+    {
+      "titleNote": "Pesta fadly",
+      "tasks": [
+        {
+          "id": "Task 1",
+          "strTask": "Baju batik",
+          "strDescription": "Ambil kerumah abang dulu",
+          "isDone": true
+        },
+        {
+          "id": "Task 2",
+          "strTask": "Celana keper",
+          "strDescription": "Ambil di laundry dulu",
+          "isDone": true
+        },
+        {
+          "id": "Task 3",
+          "strTask": "Jemput partner",
+          "strDescription": "Jangan lupa bilang pakai warna baju sama, biar coupleee!!!!"
+        }
+      ],
+      "id": 2
+    },
+    {
+      "titleNote": "Menu makanan untuk arisan",
+      "tasks": [
+        {
+          "id": "Task 1",
+          "strTask": "Rendang",
+          "strDescription": "Yang kayak di pesta2",
+          "isDone": true
+        },
+        {
+          "id": "Task 2",
+          "strTask": "Sop",
+          "strDescription": "Ambil di laundry dulu",
+          "isDone": false
+        },
+        {
+          "id": "Task 3",
+          "strTask": "Ayam goreeennggg",
+          "strDescription": "Yang banyak ya"
+        },
+        {
+          "id": "Task 4",
+          "strTask": "Rendang goreng",
+          "strDescription": "jangan lupaa"
+        },
+        {
+          "id": "Task 5",
+          "strTask": "Beli tahu",
+          "strDescription": "5 bungkus"
+        }
+      ],
+      "id": 3
+    },
+    {
+      "titleNote": "Daftar belanja",
+      "tasks": [
+        {
+          "id": "Task 1",
+          "strTask": "Tahu",
+          "strDescription": "bulat",
+          "isDone": true
+        },
+        {
+          "id": "Task 2",
+          "strTask": "Enak loo",
+          "strDescription": "masa sih"
+        },
+        {
+          "id": "Task 3",
+          "strTask": "jual",
+          "strDescription": "kkkaka"
+        },
+        {
+          "id": "Task 4",
+          "strTask": "kklaia",
+          "strDescription": "iiiwp"
+        },
+        {
+          "id": "Task 5",
+          "strTask": "ooww",
+          "strDescription": "iowjwo"
+        },
+        {
+          "id": "Task 6",
+          "strTask": "uwowopw",
+          "strDescription": "piur"
+        }
+      ],
+      "id": 4
+    },
+    {
+      "titleNote": "Makan malam",
+      "tasks": [
+        {
+          "id": "Task 1",
+          "strTask": "Rendang",
+          "strDescription": "yang enak",
+          "isDone": true
+        }
+      ],
+      "id": 5
+    },
+    {
+      "titleNote": "juajaj",
+      "tasks": [
+        {
+          "id": "Task 1",
+          "strTask": "lsk",
+          "strDescription": "kdkir",
+          "isDone": true
+        }
+      ],
+      "id": 6
+    },
+    {
+      "titleNote": "jjkaka",
+      "tasks": [
+        {
+          "id": "Task 1",
+          "strTask": "jdkdf",
+          "strDescription": "mffdkdo",
+          "isDone": true
+        }
+      ],
+      "id": 7
+    }
+  ]
+}

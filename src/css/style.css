@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+body {
+	font-family: 'Poppins', sans-serif;
+	background-color: #222831;
+}
+
+.notes {
+	background-color: #393e46;
+}
+
+.task {
+	background-color: #484d55;
+}
+
+.icon-pointer {
+	cursor: pointer;
+}
+
+.icon-pointer:hover {
+	color: rgb(236, 236, 236) !important;
+}
+
+.icon-pointer-rounded {
+	cursor: pointer;
+	padding: 3px;
+}
+
+.icon-pointer-rounded:hover {
+	background-color: #484d55;
+	padding: 3px;
+	border-radius: 100%;
+}
+
+.close {
+	color: #fff !important;
+	opacity: 1 !important;
+	font-weight: normal !important;
+}
+
+.outline-off:focus {
+	box-shadow: none !important;
+	border-bottom: 1px solid #35c09d !important;
+}
+
+@media (max-width: 575.98px) {
+	.modal-fullscreen-sm-down {
+		width: 100vw;
+		max-width: none;
+		height: 100%;
+		margin: 0;
+	}
+
+	.modal-fullscreen-sm-down .modal-content {
+    height: 100%;
+    border: 0;
+    border-radius: 0;
+	}
+
+	.modal-dialog-scrollable {
+		max-height: 100%;
+	}
+
+	.modal-dialog-scrollable .modal-content {
+		max-height: 100% !important;
+		overflow: auto !important;
+	}
+}
+
+@media (max-width: 768px) {
+	.text-brand {
+		text-align: center;
+		font-size: 1.5em;
+	}
+
+	.navnav {
+		/* border-bottom: 1px solid #1d2229; */
+		margin-bottom: 1em;
+	}
+}
