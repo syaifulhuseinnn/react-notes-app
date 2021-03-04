@@ -9,7 +9,6 @@ export default function AddNewNote({modal, setModal, closeModal, notes, setNotes
 	const addNewNote = (event) => {
 		event.preventDefault();
 		const newNote = { titleNote: titleNote, tasks: tasks }
-		setNotes([...notes, newNote]);
 		setModal(false);
 		fetch("https://quiet-lake-04193.herokuapp.com/notes", {
 			method: "POST",
@@ -17,20 +16,22 @@ export default function AddNewNote({modal, setModal, closeModal, notes, setNotes
 			body: JSON.stringify(newNote)
 		})
 		.then(response => response.json())
-		.then(result => console.log("Data added: ", result))
+		.then(result => {
+			console.log("Data added: ", result);
+			setNotes([...notes, result]);
+		})
 		.catch(error => console.log(error))
 	}
 
 	const addTask = () => {
-		const task_id = taskId + 1;
+		const task_id = tasks.length + 1;
 		const newTask = { id: `Task ${task_id}`, strTask: "", strDescription: "", isDone: false };
 		setTaskId(task_id);
 		setTasks([...tasks, newTask]);
-		console.log(tasks)
 	}
 
 	const removeTask = (id) => {
-		const task_id = taskId - 1;
+		const task_id = tasks.length - 1;
 		const filterTask = tasks.filter(task => task.id !== id);
 		setTaskId(task_id);
 		setTasks(filterTask);

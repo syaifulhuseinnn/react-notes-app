@@ -47,10 +47,13 @@ export default function DetailsNote({ modal, setModal, closeModal, detailsNote }
 
 	const removeTask = (task_id) => {
 		const id = detailsNote[0].id;
+		const taskId = tasks.length - 1;
+		console.log(taskId);
 		const filterTask = tasks.filter(task => task.id !== task_id);
 		detailsNote[0].tasks = filterTask;
 		setTasks(filterTask);
-		const updatedNote = { titleNote: titleNote, tasks: filterTask };
+		// console.log(tasks)
+		const updatedNote = { id: `Task ${taskId}`, titleNote: titleNote, tasks: filterTask };
 		putData(updatedNote, id);
 	}
 
@@ -61,7 +64,6 @@ export default function DetailsNote({ modal, setModal, closeModal, detailsNote }
 		copyTask[findTask].isDone = event.target.checked;
 		setTasks(copyTask);
 		const updatedNote = { titleNote: titleNote, tasks: copyTask };
-		console.log(id)
 		putData(updatedNote, id);
 	}
 
